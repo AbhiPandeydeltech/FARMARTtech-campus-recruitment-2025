@@ -1,22 +1,21 @@
 
 
-### Solutions Approach : 
+### Solutions Approach
 
-#### **1. My Solution/Naive Solution**
--For each query, read the entire file (1 TB) line by line.
--Match lines that start with the requested date (YYYY-MM-DD).
--Write matching lines to output.
+#### **1. My Solution / Naive Solution**
 
+- For each query, read the entire file (1 TB) line by line.  
+- Match lines that start with the requested date (YYYY-MM-DD).  
+- Write matching lines to the output.
 
-**Pros**
+##### **Pros**
 
-Very simple to implement.
+- Very simple to implement.
 
+##### **Cons**
 
-**Cons**
-
-Highly inefficient for large files (1 TB).
-Repeatedly scanning the file is time-consuming.
+- Highly inefficient for large files (1 TB).  
+- Repeatedly scanning the file is time-consuming.
 
 
 
